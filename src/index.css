@@ -1,0 +1,15 @@
+.mole {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0px;
+}
