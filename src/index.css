@@ -2,7 +2,8 @@
     width: 150px;
     height: 150px;
     border: 1px solid black;
-    margin: 50px;
+    margin: 30px 50px 50px;
+    background-color: white;
 }
 
 main {
@@ -12,4 +13,26 @@ main {
 
 body {
     margin: 0px;
+    background-image: url(../asset/grass-field.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header{
+    margin: 0px;
+    height: 85px;
+    background-color: white;
+    box-shadow: 0px 2px 15px black;
+}
+
+#header {
+    margin-left: 10px;
+}
+
+#playGame {
+    margin-top: 5px;
+}
+
+#point {
+    font-size: xx-large;
 }
