@@ -10,4 +10,7 @@ setInterval (function (){
     width = getRandomIntInclusive(0, 2);
     height = getRandomIntInclusive(0, 2);
     main.children[width].children[height].style.backgroundColor = "red";
+    setTimeout(function() {
+        main.children[width].children[height].style.backgroundColor = "white";
+      }, 300);
 }, 1000);
